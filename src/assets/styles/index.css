@@ -1,12 +1,11 @@
-@import url(../fonts/Pretendard/Pretendard.css);
+/* index.css */
 @import url(reset.css);
 @import url(variables.css);
+@import url('https://cdn.jsdelivr.net/gh/yjkimpomit/fonts@master/Pretendard/Pretendard.css');
 @import url(./components/button.css);
 
 /* 폰트패밀리 */
 body {
-	font-family: 'Pretendard', sans-serif;
-	font-weight: 500;
 	color: var(--text);
 }
 

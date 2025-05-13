@@ -29,7 +29,7 @@
 	background-position: left center;
 	background-repeat: no-repeat;
 	background-size: auto 40px;
-	padding-left: 144px;
+	padding-left: 160px;
 	
 	display: flex;
 	align-items: center;
@@ -38,14 +38,14 @@
 	width: auto;
 	height: 48px;
 
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 .logo > span {
 	font-size: 27px;
 	font-weight: 700;
 
 	position: relative;
-	padding-left: 16px;;
+	padding-left: 16px;
 }
 
 .logo > span::before {

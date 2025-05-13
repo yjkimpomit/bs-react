@@ -1,6 +1,6 @@
 // App.js
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './pages/Login';
 
 // 레이아웃
