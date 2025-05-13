@@ -1,0 +1,67 @@
+/* layout.css */
+
+main h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+main h2 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+main h3 {
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+main h4 {
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+main h5 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+main h6 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+/* 콘텐츠 영역 공통마진 */
+main p, main ul, main ol {
+	margin-bottom: 20px;
+}
+
+/* 푸터 고정으로 처리할 때 패딩 넣어줌 */
+#root > [class*='-layout'] {
+	/* margin-bottom: var(--footer-height); */
+	margin-top: var(--header-height);
+}
+
+/* layout */
+#root > [class*='-layout'] > [class*='-body'] {
+	display: flex;
+	flex-grow: 1;
+}
+
+.sidebar + main {
+	flex: calc(100% - 240px);
+	max-width: calc(100% - 240px);
+	min-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+/* fullwidth-body */
+.fullwidth-body {
+	justify-self: center;
+	background-color: var(--bg-light);
+
+	width: 100%;
+	max-width: 1440px;
+}
+
+/* main */
+aside {
+	padding: 20px 20px;
+}
+main {
+	width: 100%;
+	padding: 20px 40px;
+}
